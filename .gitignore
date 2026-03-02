@@ -1,0 +1,48 @@
+# --- Virtual Environment ---
+ai600_env/
+venv/
+env/
+.env
+.venv/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Dataset & Processed Data ---
+DL_PA2/
+__MACOSX/
+
+# --- Model Weights ---
+*.pth
+
+# --- Predictions ---
+test_predictions.npy
+
+# --- LaTeX Auxiliary Files ---
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+copy.ipynb
